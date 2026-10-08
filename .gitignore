@@ -1,0 +1,39 @@
+# Build output (attach the DLL/zip to a GitHub release instead of committing it)
+[Bb]in/
+[Oo]bj/
+dist/
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.zip
+
+# Schedule I / MelonLoader files. They belong to the game and loader, not this repo.
+Mods/
+MelonLoader/
+UserData/
+UserLibs/
+Plugins/
+Schedule I_Data/
+MonoBleedingEdge/
+*.cfg
+Latest.log
+Logs/
+
+# Decompiled game source and reverse-engineering output. Never commit these.
+Decompiled/
+Assembly-CSharp/
+*.cs.bak
+
+# Editor and OS noise
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.swp
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store
+build.ps1
